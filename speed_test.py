@@ -20,5 +20,5 @@ def perform_speed_test_1():
     result = subprocess.run(["speedtest", "--simple"], capture_output=True, text=True)
     print(result.stdout)
 
-print('\ntest speed by ookla.')
+print('\ntest speed by Ookla.')
 perform_speed_test_1()
